@@ -28,7 +28,7 @@ After the data was processed and the model was built, trained and tested these w
 
    ![image](https://github.com/user-attachments/assets/bb24f823-2eeb-4ad8-b969-da5c9c5f3722)
 
-2. Training Accuracy: The accuracy graph shows consistent improvement, reaching around 76%% accuracy by the final epoch.
+2. Training Accuracy: The accuracy graph shows consistent improvement, reaching around 76% accuracy by the final epoch.
 
    ![image](https://github.com/user-attachments/assets/34ebb838-7c2f-449b-b336-0ceee60a6886)
 
