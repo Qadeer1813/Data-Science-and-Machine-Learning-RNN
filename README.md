@@ -24,15 +24,15 @@ After downloading this dataset, a test print was conducted ```print("Total Chara
 # Data Understanding and Visualisation 
 After the data was processed and the model was built, trained and tested these were the following results:
 
-1. Training loss
+1. Training loss: The loss graph shows a steady decrease, indicating the model is learning effectively over each epoch.
 
    ![image](https://github.com/user-attachments/assets/bb24f823-2eeb-4ad8-b969-da5c9c5f3722)
 
-2. Training Accuracy
+2. Training Accuracy: The accuracy graph shows consistent improvement, reaching around 76%% accuracy by the final epoch.
 
    ![image](https://github.com/user-attachments/assets/34ebb838-7c2f-449b-b336-0ceee60a6886)
 
-3. Model in use
+3. Model in use: The model generates text based on a seed input, with the output varying depending on the different temperatures values.
 
    ![image](https://github.com/user-attachments/assets/cef88c69-2e44-4ee6-a43d-75c6ba290abc)
 
