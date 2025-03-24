@@ -19,10 +19,10 @@ The purpose of this project is to train a Recurrent Neural Network (RNN) using L
 The dataset that was used for this project can be downloaded from https://www.gutenberg.org/ebooks/1057
 
 # Processing
-After downloading this dataset
+After downloading this dataset, a test print was conducted ```print("Total Characters in Raw Text:", len(raw_data))```, ```print(raw_data[:1000])```. The loaded data is then displayed. Since the poems begin from line 209, the following line of code was used ```poem_lines = raw_data[209:]```. To clean the data blank lines, lines written in all-uppercase, and lines containing only numbers were removed, ensuring only the actual poem content was kept for training. Joined all the poem lines into one continuous string and converted it to lowercase to maintain consistency. Finally, all unique characters were extracted from the text and created mappings to convert characters to numerical indices. After cleaning was done, the cleaned text was split into sequences of 100 characters to prepare training data. These sequences were then converted to numbers and one-hot encoded so the model could learn patterns and predict the next character. After this, the model was built. The model was then trained over 20 epochs with a batch size of 256. During training, both the accuracy and loss were tracked and visualized using matplot library. Finally, the model was tested by generating text based on a seed phrase at different temperature values to explore how randomness affects the output.
 
 # Data Understanding and Visualisation 
-After the data was processed these were the following results:
+After the data was processed and the model was built, trained and tested these were the following results:
 
 1. Training loss
 
